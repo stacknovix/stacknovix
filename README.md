@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Darshan Gurubaxani
+# ⚡ stacknovix
 ### **Principal Software Engineer | Full-Stack & MERN Architect | Agentic AI & Cloud Systems**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/darshangurub)
@@ -129,5 +129,5 @@ Accomplished **Principal Software Engineer** with over **13 years of progressive
 ---
 
 <div align="center">
-  <sub>Designed & Maintained by <a href="https://github.com/dgrubaxani">Darshan Gurubaxani</a> • Principal Software Engineer</sub>
+  <sub>Designed & Maintained by <a href="https://github.com/dgrubaxani">stacknovix</a> • Principal Software Engineer</sub>
 </div>
