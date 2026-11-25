@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" width="420" height="260" role="img" aria-label="Cartoon developer coding at desk">
+  <defs>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <style>
+      @keyframes steam { 0% { transform: translateY(0px); opacity: 0.7; } 100% { transform: translateY(-12px); opacity: 0; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes bob { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-3px); } }
+      .steam1 { animation: steam 2.2s ease-in-out infinite; }
+      .steam2 { animation: steam 2.2s ease-in-out 0.8s infinite; }
+      .cursor { animation: blink 1s step-end infinite; }
+      .head { animation: bob 3.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Soft backdrop -->
+  <rect width="420" height="260" rx="18" fill="#0d1117"/>
+  <circle cx="210" cy="130" r="105" fill="#1e293b" opacity="0.55"/>
+
+  <!-- Floating code symbols -->
+  <text x="42" y="54" font-family="Consolas, monospace" font-size="16" font-weight="bold" fill="#38bdf8" opacity="0.8">&lt;/&gt;</text>
+  <text x="348" y="58" font-family="Consolas, monospace" font-size="16" font-weight="bold" fill="#34d399" opacity="0.8">{ }</text>
+  <text x="58" y="135" font-family="Consolas, monospace" font-size="13" fill="#a78bfa" opacity="0.7">def()</text>
+  <text x="334" y="132" font-family="Consolas, monospace" font-size="13" fill="#fbbf24" opacity="0.7">API</text>
+
+  <!-- Developer cartoon character (behind desk/monitor) -->
+  <g class="head">
+    <!-- Hoodie / shoulders -->
+    <path d="M145 190 C145 152, 275 152, 275 190 Z" fill="#3b82f6"/>
+    <path d="M178 158 Q210 175 242 158" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Neck -->
+    <rect x="198" y="134" width="24" height="22" rx="8" fill="#f1c27d"/>
+    <!-- Head -->
+    <circle cx="210" cy="108" r="34" fill="#f1c27d"/>
+    <!-- Hair -->
+    <path d="M176 102 C176 70, 244 68, 244 102 C236 86, 188 86, 176 102 Z" fill="#1e293b"/>
+    <path d="M180 94 Q205 74 235 90" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+    <!-- Headphones -->
+    <path d="M174 106 C174 68, 246 68, 246 106" fill="none" stroke="#38bdf8" stroke-width="5"/>
+    <rect x="167" y="96" width="11" height="24" rx="5" fill="#0284c7"/>
+    <rect x="242" y="96" width="11" height="24" rx="5" fill="#0284c7"/>
+    <!-- Glasses -->
+    <rect x="186" y="101" width="19" height="13" rx="4" fill="#0f172a" fill-opacity="0.15" stroke="#0f172a" stroke-width="2.5"/>
+    <rect x="215" y="101" width="19" height="13" rx="4" fill="#0f172a" fill-opacity="0.15" stroke="#0f172a" stroke-width="2.5"/>
+    <line x1="205" y1="107" x2="215" y2="107" stroke="#0f172a" stroke-width="2.5"/>
+    <!-- Eyes -->
+    <circle cx="195.5" cy="107.5" r="2.2" fill="#0f172a"/>
+    <circle cx="224.5" cy="107.5" r="2.2" fill="#0f172a"/>
+    <!-- Smile -->
+    <path d="M202 122 Q210 128 218 122" fill="none" stroke="#7c2d12" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Desk -->
+  <rect x="48" y="196" width="324" height="14" rx="7" fill="#334155"/>
+  <rect x="75" y="210" width="12" height="32" rx="4" fill="#1e293b"/>
+  <rect x="333" y="210" width="12" height="32" rx="4" fill="#1e293b"/>
+
+  <!-- Laptop / Monitor -->
+  <rect x="140" y="138" width="140" height="58" rx="8" fill="url(#screenGrad)" stroke="#64748b" stroke-width="2.5"/>
+  <!-- Screen code lines -->
+  <rect x="152" y="150" width="42" height="4" rx="2" fill="#38bdf8"/>
+  <rect x="198" y="150" width="28" height="4" rx="2" fill="#a78bfa"/>
+  <rect x="158" y="160" width="60" height="4" rx="2" fill="#34d399"/>
+  <rect x="158" y="170" width="38" height="4" rx="2" fill="#fbbf24"/>
+  <rect x="200" y="170" width="46" height="4" rx="2" fill="#94a3b8"/>
+  <rect class="cursor" x="250" y="169" width="3" height="7" fill="#38bdf8"/>
+  <!-- Laptop base -->
+  <rect x="128" y="192" width="164" height="6" rx="3" fill="#94a3b8"/>
+
+  <!-- Coffee mug + steam -->
+  <rect x="306" y="172" width="22" height="24" rx="4" fill="#f59e0b"/>
+  <path d="M328 177 C336 177, 336 190, 328 190" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <path class="steam1" d="M313 166 Q310 158 314 152" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+  <path class="steam2" d="M321 166 Q324 158 320 152" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cute potted plant on left -->
+  <polygon points="82,196 106,196 102,176 86,176" fill="#e11d48"/>
+  <path d="M94 176 C84 162, 82 154, 92 156 C94 162, 94 170, 94 176 Z" fill="#22c55e"/>
+  <path d="M94 176 C104 162, 108 154, 98 154 C95 160, 94 170, 94 176 Z" fill="#16a34a"/>
+</svg>

@@ -1,26 +1,59 @@
-# stacknovix
+<div align="center">
+  <img src="./assets/hero-banner.svg" alt="stacknovix banner" width="100%" />
+</div>
 
-Software engineer with **7 years of professional experience**, focused on full-stack applications, APIs, and data systems.
+<br/>
 
-My current portfolio contains independent demonstrations using synthetic data. Project source is kept private.
+<div align="center">
+  <img src="./assets/dev-cartoon.svg" alt="Developer Cartoon" width="380" />
+</div>
 
-## Selected projects
+<p align="center">
+  <img src="https://img.shields.io/badge/Experience-7%2B%20Years-0ea5e9?style=for-the-badge&logo=rocket&logoColor=white" alt="7+ Years Experience" />
+  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20APIs-6366f1?style=for-the-badge&logo=fastapi&logoColor=white" alt="Full-Stack and APIs" />
+  <img src="https://img.shields.io/badge/AI%20%26%20Data-ML%20%7C%20RAG%20%7C%20ETL-10b981?style=for-the-badge&logo=python&logoColor=white" alt="AI and Data" />
+  <img src="https://img.shields.io/badge/Portfolio-Private%20Source-334155?style=for-the-badge&logo=github&logoColor=white" alt="Private Source" />
+</p>
 
-| Project | What the code demonstrates |
-| --- | --- |
-| Risk review console | React and Express, searchable claim queues, supervisor resolutions, version checks, and actor audit records. |
-| Workflow service | Durable local jobs, atomic batch submission, idempotency, cancellation, and scoped fixture tools. |
-| Knowledge assistant | FastAPI, document chunking, permission-filtered BM25 retrieval, source citations, and reusable indexes. |
-| Fraud risk model | Scikit-learn training, separate holdout evaluation, validated model exports, score explanations, and batch inference. |
-| Retail data pipeline | Python and SQLite ingestion, validation, quarantine, deduplication, lineage, quality gates, and transactional rollback. |
+---
 
-A shared project catalog API provides authenticated CRUD, persistence, search, pagination, and stale-update protection for project metadata.
+### 👋 About Me
 
-## Technologies represented in the portfolio
+Software engineer with **7+ years of professional experience** designing and shipping **full-stack web applications**, **high-reliability APIs**, **applied AI/ML workflows**, and **data engineering pipelines**.
 
-- Python, JavaScript, React, Node.js, and Express
-- FastAPI, Pydantic, SQLite, and SQL
-- Scikit-learn and lexical information retrieval
-- pytest and Node.js API tests
+> 🔒 My current portfolio contains independent, runnable demonstrations built with synthetic data. Project source repositories are kept private.
 
-These are local software demonstrations. They use fixture or generated data; their results describe those datasets and do not imply company affiliation or production deployment.
+---
+
+### 🚀 Selected Portfolio Projects
+
+| Project | Stack | What It Demonstrates |
+| :--- | :--- | :--- |
+| 🛡️ **Risk Review Console** | `React` `Express` `Node.js` | Claim CRUD (`POST/GET/PATCH/DELETE`), searchable paginated queues, supervisor resolutions, optimistic version checks, and actor audit trails. |
+| ⚙️ **Agent Workflow Service** | `Node.js` `Express` | Durable local jobs, atomic batch submission, idempotency keys, cancellation, deletion, operational metrics, and deterministic routing evaluation. |
+| 🧠 **Knowledge Assistant** | `FastAPI` `Python` `SQLite` | Document chunking, permission-filtered BM25 retrieval, source citations, reusable role-isolated indexes, and live SQLite CRUD. |
+| 📊 **Fraud Risk Model** | `Scikit-learn` `FastAPI` | Model training, separate holdout evaluation, threshold & drift diagnostics, validated exports, score explanations, and batch inference. |
+| 🌊 **Retail Data Pipeline** | `Python` `SQLite` `FastAPI` | Streaming ingestion, quality gates, quarantine, deduplication, data lineage, transactional rollback, and observability endpoints. |
+| 📦 **Project Catalog API** | `FastAPI` `Pydantic` `SQLite` | Shared authenticated CRUD service with status/stack filtering, slug lookup, pagination, seeding, and stale-write protection. |
+
+---
+
+### 🛠️ Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest" />
+</p>
+
+---
+
+### 📌 Note on Demonstrations
+All portfolio projects are local, self-contained software demonstrations using synthetic or fixture data. Metrics describe generated datasets only and do not imply employer affiliation or production deployment.

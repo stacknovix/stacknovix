@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="stacknovix profile banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0f2942"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 40px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #f8fafc; letter-spacing: 0.5px; }
+      .sub { font: 500 18px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #cbd5e1; }
+      .tag { font: 600 13px 'Consolas', 'Courier New', monospace; fill: #7dd3fc; }
+      @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.95; } }
+      @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+      .glow { animation: pulse 3.5s ease-in-out infinite; }
+      .floater { animation: float 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="900" height="220" rx="18" fill="url(#bg)"/>
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="none" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- Subtle grid dots -->
+  <g fill="#38bdf8" opacity="0.14">
+    <circle cx="60" cy="40" r="2"/><circle cx="100" cy="40" r="2"/><circle cx="140" cy="40" r="2"/>
+    <circle cx="60" cy="70" r="2"/><circle cx="100" cy="70" r="2"/><circle cx="140" cy="70" r="2"/>
+    <circle cx="760" cy="150" r="2"/><circle cx="800" cy="150" r="2"/><circle cx="840" cy="150" r="2"/>
+    <circle cx="760" cy="180" r="2"/><circle cx="800" cy="180" r="2"/><circle cx="840" cy="180" r="2"/>
+  </g>
+
+  <!-- Glowing orb -->
+  <circle class="glow" cx="760" cy="95" r="78" fill="#38bdf8" opacity="0.12"/>
+  <circle class="glow" cx="760" cy="95" r="52" fill="#818cf8" opacity="0.14"/>
+
+  <!-- Floating terminal badge on right -->
+  <g class="floater" transform="translate(650, 48)">
+    <rect width="195" height="122" rx="12" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="18" cy="16" r="4" fill="#f87171"/>
+    <circle cx="32" cy="16" r="4" fill="#fbbf24"/>
+    <circle cx="46" cy="16" r="4" fill="#34d399"/>
+    <text x="16" y="46" class="tag">&gt; stack: full-stack</text>
+    <text x="16" y="68" class="tag">&gt; focus: APIs &amp; AI/ML</text>
+    <text x="16" y="90" class="tag">&gt; data: SQLite / ETL</text>
+    <text x="16" y="110" class="tag" fill="#34d399">&gt; exp: 7+ years _</text>
+  </g>
+
+  <!-- Left text -->
+  <text x="52" y="88" class="title">Hi, I'm stacknovix</text>
+  <rect x="52" y="102" width="240" height="4" rx="2" fill="url(#accent)"/>
+  <text x="52" y="138" class="sub">Software Engineer • Full-Stack, APIs, AI/ML &amp; Data Systems</text>
+  <text x="52" y="170" class="tag">7+ years building reliable web apps, retrieval systems, ML models &amp; data pipelines</text>
+</svg>
